@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typedoc": "^0.24.0",
-    "typescript": "5.0"
+    "typedoc": "^0.24.7",
+    "typescript": "5.0.4"
   }
 }
