@@ -14,7 +14,7 @@ try {
     const project = app.convert()
 
     if (project) {
-        app.serializer.toObject(project)
+        app.serializer.projectToObject(project, process.cwd())
     } else {
         console.log("No typedoc generated!")
     }
